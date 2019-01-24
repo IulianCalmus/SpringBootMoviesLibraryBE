@@ -10,6 +10,12 @@
 .springBeans
 .sts4-cache
 
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
 ### IntelliJ IDEA ###
 .idea
 *.iws

@@ -5,8 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.movies.library.entity.Movie;
 
-import antlr.collections.List;
-
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 	public Movie findMovieByTitle(String title);
